@@ -2,24 +2,24 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'a58b8920dc7c475382cd61f836a629d8',
+  rootNotionPageId: '79570cde55d24e06aee89848e4871885',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: '5752609a-c6d6-4b1d-bec0-969ac85876bb',
+  rootNotionSpaceId: '58556d8a-ce3f-485c-a7de-dc8672a87b4e',
 
   // basic site info (required)
-  name: 'irving',
-  domain: 'kyriezhao.notion.site',
-  author: 'Travis Fischer',
+  name: 'kyriezhao',
+  domain: 'irvingzhao.notion.site',
+  author: 'Kyrie Zhao',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'personal website',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  // twitter: 'transitive_bs',
+  github: 'BeBetter857',
+  // linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
@@ -54,11 +54,11 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'About',
-      pageId: '5cb3e0e8fa8746e2819c16d53102d2fb'
+      pageId: '5e80cb2868ab43649c7a06e202e6782b'
     },
     {
       title: 'Contact',
-      pageId: '5cb3e0e8fa8746e2819c16d53102d2fb'
+      pageId: '3688a80f5fd747c4b6ca23d00b4ea521'
     }
   ]
 })
